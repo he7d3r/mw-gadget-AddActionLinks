@@ -46,7 +46,9 @@ function addRelevantLinks ( rights ){
 
 if( mw.config.get( 'wgCanonicalSpecialPageName' ) === 'Whatlinkshere' || $.inArray( mw.config.get( 'wgAction' ), [ 'edit', 'submit' ] ) !== -1 ) {
 	// TODO: Add chekboxes to show/hide each extra button
-	mw.user.getRights( addRelevantLinks );
+	mw.loader.using( 'mediawiki.user', function(){
+		mw.user.getRights( addRelevantLinks );
+	} );
 }
 
 }( mediaWiki, jQuery ) );
