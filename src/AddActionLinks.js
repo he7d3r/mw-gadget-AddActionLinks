@@ -1,6 +1,7 @@
 /**
  * Adds "edit", "hist" and "delete" link to [[Special:WhatLinksHere]] and the list of templates used in a page
- * @author: [[User:Helder.wiki]]
+ * @author: Helder (https://github.com/he7d3r)
+ * @license: CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>
  * Based on [[mw:Snippets/Special:WhatLinksHere action links]] (rev 2)
  * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/AddActionLinks.js]] ([[File:User:Helder.wiki/Tools/AddActionLinks.js]])
  */
