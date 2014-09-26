@@ -4,8 +4,6 @@
  * @license: CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>
  * Based on [[mw:Snippets/Special:WhatLinksHere action links]] (rev 2)
  */
-/*jslint browser: true, white: true, forin: true, todo: true */
-/*global jQuery, mediaWiki */
 ( function ( mw, $ ) {
 'use strict';
 
